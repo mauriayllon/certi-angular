@@ -1,4 +1,24 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<p>ROUTING</p>
+
+<button type="button" class="btn btn-danger">Danger</button>
+<button routerLink="home">Home</button>
+<button routerLink="admin">Admin</button>
+<button routerLink="about">About</button>
+<button routerLink="user">User</button>
+<div style="border: 1px solid red">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="btn-group btn-group-toggle">
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton> Left (pre-checked)
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton> Middle
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton> Right
+  </label>
+</div>
+<hr>
+
